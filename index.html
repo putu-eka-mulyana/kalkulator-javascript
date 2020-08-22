@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalkulator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrepper">
+        <div class="box-result"><p id="result"></p></div>
+        <table border="0">
+          <tr>
+            <td><input type="button" value="(" class="operator" /></td>
+            <td><input type="button" value=")" class="operator" /></td>
+            <td><input type="button" value="%" id="percent" /></td>
+            <td>
+              <input type="button" value="AC" id="btn_ac" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="button" value="7" class="btn_number" />
+            </td>
+            <td>
+              <input type="button" value="8" class="btn_number" />
+            </td>
+            <td>
+              <input type="button" value="9" class="btn_number" />
+            </td>
+            <td><input type="button" value="/" class="operator" /></td>
+          </tr>
+          <tr>
+            <td>
+              <input type="button" value="4" class="btn_number" />
+            </td>
+            <td>
+              <input type="button" value="5" class="btn_number" />
+            </td>
+            <td>
+              <input type="button" value="6" class="btn_number" />
+            </td>
+            <td><input type="button" value="*" class="operator" /></td>
+          </tr>
+          <tr>
+            <td>
+              <input type="button" value="1" class="btn_number" />
+            </td>
+            <td>
+              <input type="button" value="2" class="btn_number" />
+            </td>
+            <td>
+              <input type="button" value="3" class="btn_number" />
+            </td>
+            <td><input type="button" value="-" class="operator" /></td>
+          </tr>
+          <tr>
+            <td>
+              <input type="button" value="0" class="btn_number" />
+            </td>
+            <td>
+              <input type="button" class="btn_number" value="." />
+            </td>
+            <td>
+              <input type="button" value="=" id="solve" />
+            </td>
+            <td><input type="button" value="+" class="operator" /></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
